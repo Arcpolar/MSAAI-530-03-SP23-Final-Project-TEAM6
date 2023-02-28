@@ -16,7 +16,7 @@ This project aims to measure fish growth over time based on the water conditions
 
 Data
 -----------------------------
-[This](Data) folder contains the final csv files including the cleaned data pond, training and validation data, and combined dataset of the validation set with the predicted fish growth and predicted sensor data. The [combined pond result](Data) csv will contain the dataframe with the attribues and their predictions.
+[This](Data) folder contains the final csv files including the cleaned data pond, training and validation data, and combined dataset of the validation set with the predicted fish growth and predicted sensor data. The [combined pond result](Data/combined_pond_result.csv) csv will contain the dataframe with the attribues and their predictions.
 
 
 Data Cleaning
@@ -33,8 +33,8 @@ EDA
 
 Time Series Model Data
 -----------------------------
-[This](Time-Series-Model-Data) folder contains the LSTM Jupyter notebook that creates all of the predictions for each individual sensor. The notebook contains the code for the LSTM model that was trained to predict the readings expected in three minutes for each sensor attribute. The [CNN LSTM Workbook](Time-Series-Model-Data) will contain the process of training, evaluating and generating the predictions for each sensor.
+[This](Time-Series-Model-Data) folder contains the LSTM Jupyter notebook that creates all of the predictions for each individual sensor. The notebook contains the code for the LSTM model that was trained to predict the readings expected in three minutes for each sensor attribute. The [CNN LSTM Workbook](Time-Series-Model-Data/CNN_LSTM_Workbook.ipynb) will contain the process of training, evaluating and generating the predictions for each sensor.
 
 Weight Prediction Model Data
 -----------------------------
-[This](Weight_prediction_Models) folder contains the Jupyter notebooks and data for the fish weight prediction. The notebooks include the code for the gradient boosting model used to predict fish growth based on water conditions. The folder also contains the training and validation datasets used to train and test the model. The [Weight Difference Prediction using Gradient Boosting](Weight_prediction_Models) will contain the process of training, evaluating and generating the predictions for the weight differences based on the pond conditions.
+[This](Weight_prediction_Models) folder contains the Jupyter notebooks and data for the fish weight prediction. The notebooks include the code for the gradient boosting model used to predict fish growth based on water conditions. The folder also contains the training and validation datasets used to train and test the model. The [Weight Difference Prediction using Gradient Boosting](Weight_prediction_Models/Weight_Diff-Predictions_Pond2_using_Gradient_Boosting.ipynb) will contain the process of training, evaluating and generating the predictions for the weight differences based on the pond conditions.
