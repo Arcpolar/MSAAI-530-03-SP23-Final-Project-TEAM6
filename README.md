@@ -5,10 +5,10 @@ This project aims to measure fish growth over time based on the water conditions
 ## Table of Contents
 
 * [Data](Data)
-* [Data Cleaning](Data Cleaning)
+* [Data Cleaning](Data-Cleaning)
 * [Documents](Documents)
 * [EDA](EDA)
-* [Time Series Model Data](Time Series Model Data)
+* [Time Series Model Data](Time-Series-Model-Data)
 * [Weight Prediction Model Data](Weight_prediction_Models)
 
 
